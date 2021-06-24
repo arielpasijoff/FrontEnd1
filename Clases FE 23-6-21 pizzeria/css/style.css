@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*   General  */
+
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;   
+  font-family: 'Roboto', sans-serif;
+}
+
+/*   Header */
+header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#logo-pizza-head{
+    background-image: url(../img/logo\ pizza.png);
+    width: 234px;
+    height: 80px;
+    
+}
+#botones-cabecera a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    
+   
+
+}
+
+/* Main */
+main{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#Delivery{
+    background-image: url(../img/delivery.jpg);
+    width: 49%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px 0px;
+    background-size: cover;
+    justify-content: center;
+    font-weight: bold;
+
+    
+
+    
+
+}
+.pan{
+    color: #fc200c;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0px 6px;
+
+    
+}
+.carne{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+
+    
+}
+
+
+#podio{
+    background-color: white;
+    width: 49%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px 0px;
+    justify-content: space-around;
+    align-content: space-around;
+    border-radius: 5px;
+
+}
+h4{
+    color: #fc200c;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    font-style: normal;
+    width: 90%;
+    text-align: center;
+
+}
+main section ol{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 23px;
+   
+
+}
+
+main section ol li{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 19px;
+    margin: 8px 0;
+
+}
+
+#pizza{
+    background-image: url(../img/PizzaFalling.jpg);
+    border-radius: 5px;
+    width: 92px;
+    height: 129px;
+}
+
+/* Footer  */
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #222222;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#logo-pizza-foot{
+    background-image: url(../img/logo\ pizza.png);
+    width: 234px;
+    height: 80px;
+    margin: 0px 10px;
+}
+
+#botones-pie{
+    order: -1;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px 10px;
+
+
+}
+
+
+
+#botones-pie a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3px 0px;
+    
+    
+
+}
